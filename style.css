@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 25px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo{
+    width: 120px;
+}
+
+.navs{
+    /* background-color: black; */
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+
+button{
+padding: 10px 15px;
+font-size: 14px;
+border-radius: 8px;
+border: none;
+color: white;
+background-color: #1D4ED8;
+cursor: pointer;
+/* font-weight: 600; */
+}
+
+.herosection{
+display: flex;
+justify-content: center;
+gap: 40px;
+align-items: center;
+min-height: 90vh;
+
+/* background-color: maroon; */
+/* padding: 0 20px 0 50px; */
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1{
+    font-size: 95px;
+    line-height: 1;
+    font-weight: 800;
+    /* background-color: green; */
+    margin-bottom: 0;
+
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    /* background-color: red; */
+    margin: 0;
+}
+
+.herobutton {
+    display: flex;
+    gap: 15px;
+}
+
+.activebutton{
+padding: 15px 20px;
+font-weight: bold;
+font-size: 16px;
+}
+
+.inactivebutton{
+padding: 15px 20px;
+font-weight: bold;
+font-size: 16px;
+background-color: #E8E8E8;
+color: black;
+}
+
+.heroimage{
+    width: 550px;
+}
+
+.heroimage img {
+    /* background-color: black; */
+    width: 100%;
+    height: auto;
+} 
