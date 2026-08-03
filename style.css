@@ -33,17 +33,37 @@ border: none;
 color: white;
 background-color: #1D4ED8;
 cursor: pointer;
-/* font-weight: 600; */
+font-weight: 600;
 }
 
+.hamburger{
+    width: 25px;
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+  .navs {display: none;}
+  .hamburger {display: block;}
+}
+
+
 .herosection{
+    display: flex;
+}
+
+.heroimage{
+    width: 550px;
+}
+
+/* .herosection{
 display: flex;
 justify-content: center;
 gap: 40px;
 align-items: center;
 min-height: 90vh;
-/* background-color: maroon; */
-/* padding: 0 20px 0 50px; */
+background-color: maroon;
+padding: 0 20px 0 50px;
 }
 
 .herotext {
@@ -58,14 +78,14 @@ h1{
     font-size: 95px;
     line-height: 1;
     font-weight: 800;
-    /* background-color: green; */
+    background-color: green;
     margin-bottom: 0;
 
 }
 p{
     font-size: 20px;
     line-height: 1.5;
-    /* background-color: red; */
+    background-color: red;
     margin: 0;
 }
 
@@ -94,7 +114,7 @@ color: black;
 }
 
 .heroimage img {
-    /* background-color: black; */
+    background-color: black;
     width: 100%;
     height: auto;
 } 
@@ -113,10 +133,10 @@ color: black;
 
 .headingtext{
     font-size: 12px;
-    /* background-color: #1D4ED8; */
+    background-color: #1D4ED8;
     text-align: center;
 }
 .headingtext p{
     font-size: 14px;
     letter-spacing: 5px;
-}   
+ } */
