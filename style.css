@@ -39,7 +39,7 @@ font-weight: 600;
 }
 
 .hamburger{
-    width: 25px;
+    width: 20px;
     display: none;
 }
 
@@ -103,29 +103,56 @@ font-weight: 600;
 @media (max-width: 500px)
 {
     .herotext{ 
-        text-align: center;
-        h1{ font-size: 50px;}
+        text-align: left;
+        h1{ 
+            font-size: 58px;
+            line-height: 0.9;
+            font-weight: 900;}
         p{ font-size: 16px; line-height: 1.3;}
     }
-    .heroimage{ width: 400px}
+    .heroimage{ 
+        width: 550px;
+        margin: 30px;}
 }
 /* HERO SECTION */ 
 
 
 /* PARTNERS SECTION */
-.headingtext{
+.heading{
     font-size: 14px;
-    margin: 80px 0;
+    margin: 100px 0 40px 0;
     /* background-color: red; */
     display: flex;
     justify-content: center;
     letter-spacing: 3px;
     color: #808080;
 }
-
 @media (max-width: 500px)
 {
     .headingtext{
         font-size: 8px;
         letter-spacing: 2px;}
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    gap: 60px;
+    overflow-x: scroll;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 100px 90px;
+
+    
+    .bodytext {
+        width: 700px;
+        font-size: 24px;
+       }
+
 }
