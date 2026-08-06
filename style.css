@@ -127,9 +127,10 @@ font-weight: 600;
     letter-spacing: 3px;
     color: #808080;
 }
+
 @media (max-width: 500px)
 {
-    .headingtext{
+    .heading{
         font-size: 8px;
         letter-spacing: 2px;}
 }
@@ -142,17 +143,26 @@ font-weight: 600;
     overflow-x: scroll;
 }
 
-.body{
+
+
+.partnersbody {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
-    margin: 100px 90px;
+    gap: 70px;
 
-    
-    .bodytext {
-        width: 700px;
+    .pbtext{
         font-size: 24px;
-       }
-
+        width: 630px;
+        line-height: 1px;
+    }
+    .pbimage{
+        width: 380px;
+        background-color: red;
+    }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+      
 }
